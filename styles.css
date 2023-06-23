@@ -1,0 +1,346 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos de encabezado */
+  header {
+    background-color: #1565c0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Estilos de secciones */
+  .section {
+    padding: 40px 0;
+  }
+  
+  .section-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  /* Estilos de Nosotros */
+  .nosotros {
+    background-color: #e3f2fd;
+  }
+  
+  .nosotros-image {
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .nosotros-subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .nosotros-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Estilos de Servicios */
+  .servicios {
+    background-color: #f0f5ff;
+  }
+  
+  .servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .servicio {
+    text-align: center;
+  }
+  
+  .servicio-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .servicio-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .servicio-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Estilos de Contacto */
+  .contacto-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .contacto-form input[type="text"],
+  .contacto-form input[type="email"],
+  .contacto-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .contacto-form input[type="submit"] {
+    background-color: #1565c0;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contacto-form input[type="submit"]:hover {
+    background-color: #1e88e5;
+  }
+  
+  /* Estilos de pie de página */
+  .footer {
+    background-color: #1565c0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos de encabezado */
+  header {
+    background-color: #1565c0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Estilos de secciones */
+  .section {
+    padding: 40px 0;
+  }
+  
+  .section-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  /* Estilos de Nosotros */
+  .nosotros {
+    background-color: #e3f2fd;
+  }
+  
+  .nosotros-image {
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .nosotros-subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .nosotros-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Estilos de Servicios */
+  .servicios {
+    background-color: #f6f6f6;
+  }
+  
+  .servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .servicio {
+    text-align: center;
+  }
+  
+  .servicio-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .servicio-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .servicio-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Estilos de Contacto */
+  .contacto-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .contacto-form input[type="text"],
+  .contacto-form input[type="email"],
+  .contacto-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .contacto-form input[type="submit"] {
+    background-color: #1565c0;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contacto-form input[type="submit"]:hover {
+    background-color: #1e88e5;
+  }
+  
+  /* Estilos de pie de página */
+  .footer {
+    background-color: #1565c0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Contactos</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      
+      h1 {
+        color: #333;
+      }
+      
+      h2 {
+        color: #666;
+      }
+      
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      li {
+        margin-bottom: 10px;
+      }
+      
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      
+      /a></li>
+          </ul>
+        </footer>
+      </body>
+      </html>
+      
+    
+    
